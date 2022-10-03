@@ -45,3 +45,91 @@
 * https://www.pythoncheatsheet.org/   
 
 [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
+***
+## Distinguish Click-bait
+### Introduction
+* 기사와 내용일 일치하지않은, 클릭을 유도하는 피시성 기사를 가리기 위해 진행한 프로젝트
+* 딥러닝을 이용해 기사의 내용을 간략하게 요약하고, 헤드라인과 비교
+<br><br>
+### Data and Models
+* 데이터 종류 : 신문기사
+* 데이터 형태 : 뉴스 택스트
+* 수량 : 원문데이터 30만건
+* 출처 : [Ai-Hub](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=97)
+* model : mT5
+<br><br>
+### Envs and Requirements
+* Google Colab, VScode
+* Tensorflow, Hugging Face, Transformers, Pandas
+<br><br>
+### Progress
+* 데이터셋 구축
+* 데이터셋 정제
+* json -> dictionary
+* 데이터셋에서 제목, 원문, 추출요약, 생성요약 추출
+* transform AutoTokenizer 사용
+* Hugging Face 이용하여 모델 구축 - mT5 모델에 fine-tuning
+<br><br>
+### Referece
+<br><br>
+#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
+***
+## MUSINSA - Recommending Items
+<br><br>
+### Introduction
+* 데이터 분석을 통한 다음분기 상품 추천
+<br><br>
+### Data and Models
+* Web Crawling을 통한 무신사 데이터
+* TF-IDF, Logistic Regression
+<br><br>
+### Envs and Requirements
+* Google Colab, VScode
+* BeautifulSoup, Pandas, RE, KoNLPy, Scikit-Learn, Matplotlib, Seaborn
+<br><br>
+### Progress
+<br><br>
+### Referece
+<br><br>
+#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
+***
+## MUSINSA - Predicting Star-rate Using Review
+<br><br>
+### Introduction
+* 신뢰성을 가진 별점 예측을 통해 musinsa 입점브랜드에 관한 실질적 평가지표를 제시
+<br><br>
+### Data and Models
+* Web Crawling을 통한 무신사 댓글
+* Web Crawling을 통한 네이버 쇼핑몰 부정댓글
+* KoGPT2, KoBERT
+<br><br>
+### Envs and Requirements
+* Google Colab, VScode
+* BeautifulSoup, Pandas, Hugging Face, Transformers
+<br><br>
+### Progress
+<br><br>
+### Referece
+<br><br>
+#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
+***
+## Survey-Analysis
+### Introduction
+* 설문조사 분석
+* 데이터를 쉽게 해석하기 위한 시각화 작업
+* 데이터 분석을 위한 토픽모델링 및 LDA
+<br><br>
+### Data and Models
+* 농협 설문조사 자료 - 외주
+* TF-IDF, N-gram, LDA
+<br><br>
+### Envs and Requirements
+* Google Colab
+* Pandas, Matplotlib, Seaborn, Gensim, WordCloud, Re, KoNLPy
+<br><br>
+### Progress
+<br><br>
+### Referece
+<br><br>
+#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
+***
