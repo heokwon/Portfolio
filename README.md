@@ -253,16 +253,39 @@ HorizontaFlip, VerticalFlip, Blur, OpticalDistortion, Resize, RandomRotate90
 ## Kaggle Competition : HuBMAP + HPA - Hacking The Human Body
 ### Repositories - [Train & Inference](https://github.com/heokwon/KaggleCompetiton-Train-and-Inference.git), [Data Handling](https://github.com/heokwon/KaggleCompetiton-DataHandling.git)
 ### Introduction
+* Semantic Segmentation으로 HuBMAP 데이터셋을 학습하여 FTU를 찾는 대회
+* 점수를 높이기 위한 Dataset Handling
+* encoder를 EfficientNet과 ResNeSt를 사용하는 Unet의 Train
+* 학습시킨 데이터셋의 size, encoder, model간의 ensemble과 학습한 모델을 Inference
 <br><br>
 ### Data and Models
+* HPA에서 제공한 3000x3000 size의 train image 351장
+* EfficientNet (b1 - b5), ResNeSt (101, 200, 269), Unet
 <br><br>
 ### Envs and Requirements
+* Google Colab, VScode, AWS, Jupyter notebook
+* Pandas, Pytorch, Fast-Ai, MMSegmentation, Pillow, OpenCV, Imageio, Matplotlib, Rasterio, Sklearn, Weights and Biases,  
 <br><br>
 ### Progress
+* mmsegmentation
+* Dataset Handling
+* Modeling
+* Inference tuning
+* Ensemble
 <br><br>
 ### Result
+* Public Score : 0.78 , Private Score : 0.76 (Final Result)
+* Rank : 124 / 1245 teams (90 percentile)
 <br><br>
 ### Referece
+* https://www.kaggle.com/code/befunny/hubmap-fast-ai-starter-efficientnet
+* https://www.kaggle.com/code/shuheiakahane/inference-hubmap-fast-ai-starter-efficientnet
+* https://github.com/twyunting/Laplacian-Pyramids
+* https://www.kaggle.com/code/nghihuynh/data-augmentation-laplacian-pyramid-blending
+* https://www.kaggle.com/code/alejopaullier/how-to-create-a-coco-dataset
+* https://github.com/Mr-TalhaIlyas/Mosaic-Augmentation-for-Segmentation
+* https://www.kaggle.com/code/thedevastator/converting-to-256x256
+* https://www.kaggle.com/code/e0xextazy/multiclass-dataset-768x768-with-stride-for-mmseg
 <br><br>
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
