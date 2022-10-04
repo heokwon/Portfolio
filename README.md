@@ -78,7 +78,6 @@
 ***
 ## MUSINSA - Recommending Items
 ### [Repositories]()
-<br><br>
 ### Introduction
 * 데이터 분석을 통한 다음분기 상품 추천
 <br><br>
@@ -98,7 +97,6 @@
 ***
 ## MUSINSA - Predicting Star-rate Using Review
 ### [Repositories](https://github.com/heokwon/NLP-MUSINSA/tree/main/Predicting%20Star-Rate%20Using%20Review)
-<br><br>
 ### Introduction
 * 신뢰성을 가진 별점 예측을 통해 musinsa 입점브랜드에 관한 실질적 평가지표를 제시
 <br><br>
