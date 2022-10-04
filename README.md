@@ -8,7 +8,7 @@
 ### CV(Computer Vision)
 * [DietService-Objectdetection](https://github.com/heokwon/Portfolio#dietservice-objectdetection)(2022.04)
 * [Car Damage Detection](https://github.com/heokwon/Portfolio#car-damage-detection)(2022.07~08)
-* Kaggel Competition : HuBMAP + HPA - Hacking The Human Body-[Train & Inference](https://github.com/heokwon/KaggleCompetiton-Train-and-Inference.git),[Data Handling](https://github.com/heokwon/KaggleCompetiton-DataHandling.git)(2022.08~09)
+* [Kaggel Competition : HuBMAP + HPA - Hacking The Human Body](https://github.com/heokwon/Portfolio#kaggle-competition--hubmap--hpa---hacking-the-human-body)(2022.08~09)
 <br><br>
 ## TextMining with ML
 ### [Repositories](https://github.com/heokwon/Portfolio#survey-analysis)
@@ -165,7 +165,7 @@
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
 ## Kaggle Competition : HuBMAP + HPA - Hacking The Human Body
-### [Repositories](https://github.com/heokwon/Portfolio#)
+### Repositories - [Train & Inference](https://github.com/heokwon/KaggleCompetiton-Train-and-Inference.git), [Data Handling](https://github.com/heokwon/KaggleCompetiton-DataHandling.git)
 ### Introduction
 <br><br>
 ### Data and Models
