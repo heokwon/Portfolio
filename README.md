@@ -6,8 +6,8 @@
 * [Survey-Analysis](https://github.com/heokwon/Portfolio#survey-analysis)(2022.09)
 <br><br>
 ### CV(Computer Vision)
-* [DietService-Objectdetection](https://github.com/heokwon/DietService-ObjectDetection.git)(2022.04)
-* [Car Damage Detection](https://github.com/heokwon/CV-CarDamageDetection.git)(2022.07~08)
+* [DietService-Objectdetection](https://github.com/heokwon/Portfolio#dietservice-objectdetection)(2022.04)
+* [Car Damage Detection](https://github.com/heokwon/Portfolio#car-damage-detection)(2022.07~08)
 * Kaggel Competition : HuBMAP + HPA - Hacking The Human Body-[Train & Inference](https://github.com/heokwon/KaggleCompetiton-Train-and-Inference.git),[Data Handling](https://github.com/heokwon/KaggleCompetiton-DataHandling.git)(2022.08~09)
 <br><br>
 ## TextMining with ML
@@ -129,6 +129,48 @@
 ### Envs and Requirements
 * Google Colab
 * Pandas, Matplotlib, Seaborn, Gensim, WordCloud, Re, KoNLPy
+<br><br>
+### Progress
+<br><br>
+### Referece
+<br><br>
+#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
+***
+## DietService-ObjectDetection
+### [Repositories](https://github.com/heokwon/DietService-ObjectDetection.git)
+### Introduction
+<br><br>
+### Data and Models
+<br><br>
+### Envs and Requirements
+<br><br>
+### Progress
+<br><br>
+### Referece
+<br><br>
+#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
+***
+## Car Damage Detection
+### [Repositories](https://github.com/heokwon/CV-CarDamageDetection.git)
+### Introduction
+<br><br>
+### Data and Models
+<br><br>
+### Envs and Requirements
+<br><br>
+### Progress
+<br><br>
+### Referece
+<br><br>
+#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
+***
+## Kaggle Competition : HuBMAP + HPA - Hacking The Human Body
+### [Repositories](https://github.com/heokwon/Portfolio#)
+### Introduction
+<br><br>
+### Data and Models
+<br><br>
+### Envs and Requirements
 <br><br>
 ### Progress
 <br><br>
