@@ -1,9 +1,9 @@
 # Portfolio
 ### NLP(Natural Language Processing)
-* [TextMining with ML](https://github.com/heokwon/TextMining_withML.git)(2022.04)
-* [Distinguish Click-bait](https://github.com/heokwon/Distinguish_Click-bait.git)(2022.05)
-* [MUSINSA - Recommending Items, Predicting Star-rate Using Review](https://github.com/heokwon/NLP-MUSINSA.git)(2022.06~07)
-* [Survey-Analysis](https://github.com/heokwon/Survey-analysis.git)(2022.09)
+* [TextMining with ML](https://github.com/heokwon/Portfolio#textmining-with-ml)(2022.04)
+* [Distinguish Click-bait](https://github.com/heokwon/Portfolio#distinguish-click-bait)(2022.05)
+* MUSINSA - [Recommending Items](https://github.com/heokwon/Portfolio#musinsa---recommending-items), [Predicting Star-rate Using Review](https://github.com/heokwon/Portfolio#musinsa---predicting-star-rate-using-review)(2022.06~07)
+* [Survey-Analysis](https://github.com/heokwon/Portfolio#survey-analysis)(2022.09)
 <br><br>
 ### CV(Computer Vision)
 * [DietService-Objectdetection](https://github.com/heokwon/DietService-ObjectDetection.git)(2022.04)
