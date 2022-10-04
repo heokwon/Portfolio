@@ -11,6 +11,7 @@
 * Kaggel Competition : HuBMAP + HPA - Hacking The Human Body-[Train & Inference](https://github.com/heokwon/KaggleCompetiton-Train-and-Inference.git),[Data Handling](https://github.com/heokwon/KaggleCompetiton-DataHandling.git)(2022.08~09)
 <br><br>
 ## TextMining with ML
+### [Repositories](https://github.com/heokwon/Portfolio#survey-analysis)
 ### Introduction
 * 우크라사태가 한국 경제에 미치는 영향을 파악하기 위해 웹 크롤링한 신문기사에 워드 클라우드, 토픽 모델링 기법을 활용
 * 로지스틱 리그레션을 활용해 우크라사태 이전/이후 신문기사 내용의 감성 분석을 진행
@@ -47,6 +48,7 @@
 [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
 ## Distinguish Click-bait
+### [Repositories](https://github.com/heokwon/Distinguish_Click-bait.git)
 ### Introduction
 * 기사와 내용일 일치하지않은, 클릭을 유도하는 피시성 기사를 가리기 위해 진행한 프로젝트
 * 딥러닝을 이용해 기사의 내용을 간략하게 요약하고, 헤드라인과 비교
@@ -75,6 +77,7 @@
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
 ## MUSINSA - Recommending Items
+### [Repositories]()
 <br><br>
 ### Introduction
 * 데이터 분석을 통한 다음분기 상품 추천
@@ -94,6 +97,7 @@
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
 ## MUSINSA - Predicting Star-rate Using Review
+### [Repositories](https://github.com/heokwon/NLP-MUSINSA/tree/main/Predicting%20Star-Rate%20Using%20Review)
 <br><br>
 ### Introduction
 * 신뢰성을 가진 별점 예측을 통해 musinsa 입점브랜드에 관한 실질적 평가지표를 제시
@@ -114,6 +118,7 @@
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
 ## Survey-Analysis
+### [Repositories](https://github.com/heokwon/Survey-analysis.git)
 ### Introduction
 * 설문조사 분석
 * 데이터를 쉽게 해석하기 위한 시각화 작업
