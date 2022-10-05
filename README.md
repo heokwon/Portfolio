@@ -297,7 +297,9 @@ stride가 있는 데이터셋을 학습시켰을 때 성능이 훨씬 좋음
 4. binary class와 multi class 둘 다 진행하기 위하여, binary클래스인 데이터셋을 클래스별로 이미지를 추출하여 label을 부여   
 kidney - 1 , prostate - 2 , largeintestine - 3 , spleen - 4 , lung - 5
 
-* Modeling
+* Modeling   
+1. Efficient를 encoder로 사용하는 Unet   
+2. b0 - b7까지 성능실험 / 256, 512, 768 사이즈로 진행 / 
 * Inference tuning
 * Ensemble
 <br><br>
