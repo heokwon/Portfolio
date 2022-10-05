@@ -334,7 +334,9 @@ EfficientUnet b1, b3, b5 256x256, 512x512, 768x768 + UneSt(ResNeSt + Unet)101, 2
 
 * Rank : 124 / 1245 teams (90 percentile)   
 <img width="571" alt="kaggle score" src="https://user-images.githubusercontent.com/106142393/193986925-74e0c59b-fa8b-4625-a90f-002252503e9b.PNG">   
-<br><br>
+
+<br>
+
 ### Referece
 * https://www.kaggle.com/code/befunny/hubmap-fast-ai-starter-efficientnet
 * https://www.kaggle.com/code/shuheiakahane/inference-hubmap-fast-ai-starter-efficientnet
