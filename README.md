@@ -329,8 +329,11 @@ size와 reduce값을 바꿔가며 inferece를 진행한 결과, size = 512 / red
 EfficientUnet b1, b3, b5 256x256, 512x512, 768x768 + UneSt(ResNeSt + Unet)101, 200, 269 256x256, 512x512
 <br><br>
 ### Result
-* Public Score : 0.78 , Private Score : 0.76 (Final Result)
-* Rank : 124 / 1245 teams (90 percentile)
+* Private Score : 0.76 (Final Result), Public Score : 0.78   
+<img width="571" alt="kaggle competiton score" src="https://user-images.githubusercontent.com/106142393/193986860-e9300d10-9d97-4342-94a1-55bd3905df4f.PNG">   
+
+* Rank : 124 / 1245 teams (90 percentile)   
+<img width="571" alt="kaggle score" src="https://user-images.githubusercontent.com/106142393/193986925-74e0c59b-fa8b-4625-a90f-002252503e9b.PNG">   
 <br><br>
 ### Referece
 * https://www.kaggle.com/code/befunny/hubmap-fast-ai-starter-efficientnet
