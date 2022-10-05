@@ -288,6 +288,8 @@ reduce값을 설정해 원본이미지를 resize시키고 설정한 size만큼 c
 패딩이 최소로 생기는 reduce값의 데이터셋 ( 256x256 reduce 4, 6, 12 / 512x512 reduce 2, 3, 6 )생성
 stride를 추가하여 convert할 때 좌푝값에 보폭을 추가, 샘플 수 도 늘리고 중첩되는 ground truth 가 많아짐   
 stride가 있는 데이터셋을 학습시켰을 때 성능이 훨씬 좋음   
+256x256의 경우, stride값을 128과 64로 설정한 뒤 데이터셋을 구축해봄   
+stride 128 - 10943개 / stride 64 - 34412개   
 
 3. 예측해야하는 test 이미지의 크기가 150x150 - 4500x4500 으로 매우 다양함   
 다양한 크기의 test 이미지를 좀 더 잘 예측하기 위해, 학습시킬 데이터셋의 크기를 다양하게 만든 후 하나의 데이터셋으로 구축   
@@ -299,9 +301,32 @@ kidney - 1 , prostate - 2 , largeintestine - 3 , spleen - 4 , lung - 5
 
 * Modeling   
 1. Efficient를 encoder로 사용하는 Unet   
-2. b0 - b7까지 성능실험 / 256, 512, 768 사이즈로 진행 / 
-* Inference tuning
-* Ensemble
+
+2. b0 - b7까지 성능실험 / 256, 512, 768 사이즈로 진행   
+b1, b3 에서 256x256 multi scale with stride 128 (10948개)데이터셋의 성능이 가장 뛰어남   
+b5 에서는 256x256 multi scale with stride 64 (34412개)데이터셋의 성능이 가장 뛰어남   
+학습 성능 자체는 stirde값이 128인 데이터셋이 더 좋아 보이나, 모델복잡도가 매우 큰 b5의 경우 더 많은 샘플수를 가진 stride 64   
+데이터셋에서 성능이 더 좋았음   
+
+3. kfold를 사용하여 교차검증을 진행한 후, inference에서 stacking ensemble 진행   
+
+4. train code는 Fast-Ai를 사용하여 모델의 head train과 전체적인 full train을 진행   
+
+* Inference tuning   
+1. test이미지를 prediction할 때, size와 reduce를 입력하여 원하는 사이즈의 타일로 나눠 예측할 수 있음   
+size와 reduce값을 바꿔가며 inferece를 진행한 결과, size = 512 / reduce = 3 / threshold = 0.225 일 때 성능이 가장 좋음   
+
+2. 이미지 array의 mean값과 std값을 변경해가며 가장 성능이 좋은 값을 찾음   
+
+3. 테스트이미지를 전처리 하는 과정에서 ratio값을 추가해 여러개의 타일로 나눠 예측하던 방식을 하나의 타일로 예측하도록 바꿈   
+
+* Ensemble   
+1. 다양한 크기의 test set을 보다 더 잘 예측하기 위해 다양한 사이즈로 학습시킨 모델들로 stacking ensemble 진행 - 점수상승폭이 좋음   
+
+2. EfficientNet에서 점수가 가장 좋았던 b1, b3, b5의 encoder model끼리 앙상블   
+
+3. encoder를 ResNeSt101, 200, 269로 바꾸어 학습한 파일들도 추가하여 앙상블   
+EfficientUnet b1, b3, b5 256x256, 512x512, 768x768 + UneSt(ResNeSt + Unet)101, 200, 269 256x256, 512x512
 <br><br>
 ### Result
 * Public Score : 0.78 , Private Score : 0.76 (Final Result)
