@@ -131,6 +131,14 @@
 * Pandas, Matplotlib, Seaborn, Gensim, WordCloud, Re, KoNLPy
 <br><br>
 ### Progress
+* 데이터프레임 정제
+* 원하는 데이터만을 추출하여 시각화
+* TF-IDF를 사용하여 단어 빈도수를 추출한 뒤 워드클라우드를 이용하여 시각화
+* TF-IDF, LDA를 통한 토픽 모델링
+* 바이그램 / 트라이그램 적용
+* 응집도 / 복잡도 기준 최적 에폭 및 토픽 갯수 설정
+* 설몬조사 플랫폼에 사용할 목적으로, 비슷한 양식의 또다른 설문조사 데이터를 집어넣어도   
+함수 한줄로 plot, wordcloud가 가능하도록 함수화 진행
 <br><br>
 ### Referece
 <br><br>
@@ -260,6 +268,7 @@ HorizontaFlip, VerticalFlip, Blur, OpticalDistortion, Resize, RandomRotate90
 <br><br>
 ### Data and Models
 * HPA에서 제공한 3000x3000 size의 train image 351장
+* class : kidney, prostate, largeintestine, spleen, lung
 * EfficientNet (b1 - b5), ResNeSt (101, 200, 269), Unet
 <br><br>
 ### Envs and Requirements
@@ -268,7 +277,26 @@ HorizontaFlip, VerticalFlip, Blur, OpticalDistortion, Resize, RandomRotate90
 <br><br>
 ### Progress
 * mmsegmentation
-* Dataset Handling
+* Dataset Handling   
+1. rle to mask - train set의 이미지가 3000x3000으로, 메모리가 매우 큼   
+메모리를 줄이기 위해 mask좌표를 rle로 표현   
+rle : 마스크 이미지의 array정보가 0과 1로만 표현되어있는 상태에서, 마스크값인 1의 시작위치와 끝 위치, 그 다음 1의 시작위치와   
+끝 위치를 반복해서 나타냄으로써 메모리를 줄이는 방법   
+
+2. Convert - 해상도 손실 없이 학습시키는 이미지의 사이즈를 줄이기 위해 원본데이터를 자름   
+reduce값을 설정해 원본이미지를 resize시키고 설정한 size만큼 convert하는데, reduce값에 따라 생기는 패딩의 크기가 다름   
+패딩이 최소로 생기는 reduce값의 데이터셋 ( 256x256 reduce 4, 6, 12 / 512x512 reduce 2, 3, 6 )생성
+stride를 추가하여 convert할 때 좌푝값에 보폭을 추가, 샘플 수 도 늘리고 중첩되는 ground truth 가 많아짐   
+stride가 있는 데이터셋을 학습시켰을 때 성능이 훨씬 좋음   
+
+3. 예측해야하는 test 이미지의 크기가 150x150 - 4500x4500 으로 매우 다양함   
+다양한 크기의 test 이미지를 좀 더 잘 예측하기 위해, 학습시킬 데이터셋의 크기를 다양하게 만든 후 하나의 데이터셋으로 구축   
+256x256 multi scale dataset - reduce 4, 6, 12의 이미지를 하나의 데이터셋으로 구축
+512x512 multi scale dataset - reduce 2, 3, 6의 이미지를 하나의 데이터셋으로 구축   
+
+4. binary class와 multi class 둘 다 진행하기 위하여, binary클래스인 데이터셋을 클래스별로 이미지를 추출하여 label을 부여   
+kidney - 1 , prostate - 2 , largeintestine - 3 , spleen - 4 , lung - 5
+
 * Modeling
 * Inference tuning
 * Ensemble
