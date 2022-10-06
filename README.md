@@ -192,7 +192,7 @@ Generation Method - 키워드의 앞,뒤 상관관계 및 유사도를 기반하
 * https://github.com/AlexeyAB/darknet
 * https://opencv.org/
 * https://pillow.readthedocs.io/en/stable/
-* * https://www.tensorflow.org/?hl=ko
+* https://www.tensorflow.org/?hl=ko
 <br><br>
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
