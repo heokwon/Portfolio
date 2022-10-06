@@ -73,26 +73,16 @@
 * Hugging Face 이용하여 모델 구축 - mT5 모델에 fine-tuning
 <br><br>
 ### Referece
+* https://www.tensorflow.org/?hl=ko
+* https://huggingface.co/docs/transformers/index
+* https://pandas.pydata.org/
+* https://aihub.or.kr/
 <br><br>
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
 ## MUSINSA - Recommending Items
 ### [Repositories]()
-### Introduction
-* 데이터 분석을 통한 다음분기 상품 추천
-<br><br>
-### Data and Models
-* Web Crawling을 통한 무신사 데이터
-* TF-IDF, Logistic Regression
-<br><br>
-### Envs and Requirements
-* Google Colab, VScode
-* BeautifulSoup, Pandas, RE, KoNLPy, Scikit-Learn, Matplotlib, Seaborn
-<br><br>
-### Progress
-<br><br>
-### Referece
-<br><br>
+### 업데이트중
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
 ## MUSINSA - Predicting Star-rate Using Review
@@ -107,11 +97,27 @@
 <br><br>
 ### Envs and Requirements
 * Google Colab, VScode
-* BeautifulSoup, Pandas, Hugging Face, Transformers
+* BeautifulSoup, Selenium, Pandas, Hugging Face, Transformers
 <br><br>
 ### Progress
+* 무신사 댓글 crawling
+* 별점이 3점 이하인 댓글을 부정댓글로 설정
+* 네이버 쇼핑몰 부정댓글 crawling - 긍정과 부정댓글의 편차가 심한 이유로 부족한 부정댓글을 추가 crawling
+* 별점을 댓글에 대한 라벨로 사용 (1점 ~ 5점)
+* Text Augmentation   
+Back Translatrion - 기존 텍스트를 외국어로 번역한 뒤, 다시 한글로 번역하여 증식, 번역기 결과를 셀레니움을 통해 크롤링   
+KoEDA - 단어를 삽입/삭제/위치 변경/ 유의어로 대체 하여 증식하는 기법   
+Generation Method - 키워드의 앞,뒤 상관관계 및 유사도를 기반하여 글자 생성을 통한 증식기법   
+* Modeling - KoBERT을 사용한 댓글 감성분석을 통해 별점을 다시 매김
 <br><br>
 ### Referece
+* https://github.com/SKTBrain/KoBERT
+* https://github.com/SKT-AI/KoGPT2
+* https://www.crummy.com/software/BeautifulSoup/
+* https://pandas.pydata.org/
+* https://konlpy.org/
+* https://www.tensorflow.org/?hl=ko
+* https://huggingface.co/docs/transformers/index
 <br><br>
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
@@ -141,6 +147,10 @@
 함수 한줄로 plot, wordcloud가 가능하도록 함수화 진행
 <br><br>
 ### Referece
+* https://pandas.pydata.org/
+* https://konlpy.org/
+* https://radimrehurek.com/gensim/
+* https://scikit-learn.org/
 <br><br>
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
@@ -178,6 +188,11 @@
 * Train & Inference
 <br><br>
 ### Referece
+* https://arxiv.org/abs/2004.10934
+* https://github.com/AlexeyAB/darknet
+* https://opencv.org/
+* https://pillow.readthedocs.io/en/stable/
+* * https://www.tensorflow.org/?hl=ko
 <br><br>
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
