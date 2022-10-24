@@ -133,7 +133,7 @@ Generation Method - 키워드의 앞,뒤 상관관계 및 유사도를 기반하
 * TF-IDF, N-gram, LDA
 <br><br>
 ### Envs and Requirements
-* Google Colab
+* Google Colab, Jupyter Notebook, Conda
 * Pandas, Matplotlib, Seaborn, Gensim, WordCloud, Re, KoNLPy
 <br><br>
 ### Progress
