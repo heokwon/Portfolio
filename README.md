@@ -11,7 +11,7 @@
 * [Car Damage Detection](https://github.com/heokwon/Portfolio#car-damage-detection)(2022.07~08)
 * [Kaggel Competition : HuBMAP + HPA - Hacking The Human Body](https://github.com/heokwon/Portfolio#kaggle-competition--hubmap--hpa---hacking-the-human-body)(2022.08~09)
 <br><br>
-## TextMining with ML
+## **TextMining with ML**
 ### [Repositories](https://github.com/heokwon/Portfolio#survey-analysis)
 ### Introduction
 * 우크라사태가 한국 경제에 미치는 영향을 파악하기 위해 웹 크롤링한 신문기사에 워드 클라우드, 토픽 모델링 기법을 활용
@@ -48,7 +48,7 @@
 
 [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
-## Distinguish Click-bait
+## **Distinguish Click-bait**
 ### [Repositories](https://github.com/heokwon/Distinguish_Click-bait.git)
 ### Introduction
 * 기사와 내용일 일치하지않은, 클릭을 유도하는 피시성 기사를 가리기 위해 진행한 프로젝트
@@ -81,12 +81,12 @@
 <br><br>
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
-## MUSINSA - Recommending Items
+## **MUSINSA - Recommending Items**
 ### [Repositories]()
 ### 업데이트중
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
-## MUSINSA - Predicting Star-rate Using Review
+## **MUSINSA - Predicting Star-rate Using Review**
 ### [Repositories](https://github.com/heokwon/NLP-MUSINSA/tree/main/Predicting%20Star-Rate%20Using%20Review)
 ### Introduction
 * 신뢰성을 가진 별점 예측을 통해 musinsa 입점브랜드에 관한 실질적 평가지표를 제시
@@ -122,7 +122,7 @@ Generation Method - 키워드의 앞,뒤 상관관계 및 유사도를 기반하
 <br><br>
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
-## Survey-Analysis
+## **Survey-Analysis**
 ### [Repositories](https://github.com/heokwon/Survey-analysis.git)
 ### Introduction
 * 설문조사 분석
@@ -155,7 +155,7 @@ Generation Method - 키워드의 앞,뒤 상관관계 및 유사도를 기반하
 <br><br>
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
-## Dog_Classification
+## **Dog_Classification**
 ### [Repositories](https://github.com/heokwon/Dog_Classification.git)
 ### Introduction
 14종의 강아지 품종 이미지를 분류하는 모델 만들기<br>
@@ -230,7 +230,7 @@ Generation Method - 키워드의 앞,뒤 상관관계 및 유사도를 기반하
 ### Reference
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
-## DietService-Objectdetection
+## **DietService-Objectdetection**
 ### [Repositories](https://github.com/heokwon/DietService-ObjectDetection.git)
 ### Introduction
 * 현재 자기관리가 하나의 트랜드처럼 자리잡고있음
@@ -272,7 +272,7 @@ Generation Method - 키워드의 앞,뒤 상관관계 및 유사도를 기반하
 <br><br>
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
-## Car Damage Detection
+## **Car Damage Detection**
 ### [Repositories](https://github.com/heokwon/CV-CarDamageDetection.git)
 ### Introduction
 * Semantic Segmentation을 이용한 자동차 파손부위 탐지   
@@ -349,7 +349,7 @@ HorizontaFlip, VerticalFlip, Blur, OpticalDistortion, Resize, RandomRotate90
 <br><br>
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
-## Kaggle Competition : HuBMAP + HPA - Hacking The Human Body
+## **Kaggle Competition : HuBMAP + HPA - Hacking The Human Body**
 ### Repositories - [Train & Inference](https://github.com/heokwon/KaggleCompetiton-Train-and-Inference.git), [Data Handling](https://github.com/heokwon/KaggleCompetiton-DataHandling.git)
 ### Introduction
 * Semantic Segmentation으로 HuBMAP 데이터셋을 학습하여 FTU를 찾는 대회
