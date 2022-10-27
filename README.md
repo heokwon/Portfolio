@@ -230,7 +230,7 @@ Generation Method - 키워드의 앞,뒤 상관관계 및 유사도를 기반하
 ### Reference
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
-## DietService-Object Detection
+## DietService-Objectdetection
 ### [Repositories](https://github.com/heokwon/DietService-ObjectDetection.git)
 ### Introduction
 * 현재 자기관리가 하나의 트랜드처럼 자리잡고있음
