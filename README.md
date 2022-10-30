@@ -229,6 +229,9 @@ Generation Method - 키워드의 앞,뒤 상관관계 및 유사도를 기반하
   + 최대 0.89까지 상승
 <br><br>
 ### Reference
+* [https://selenium-python.readthedocs.io/index.html](https://selenium-python.readthedocs.io/index.html)
+* [https://keras.io/api/applications/resnet/](https://keras.io/api/applications/resnet/)
+* [https://docs.python.org/ko/3/library/pickle.html](https://docs.python.org/ko/3/library/pickle.html)
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
 ## **DietService-Objectdetection**
