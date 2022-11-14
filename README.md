@@ -107,7 +107,7 @@
 * 네이버 쇼핑몰 부정댓글 crawling - 긍정과 부정댓글의 편차가 심한 이유로 부족한 부정댓글을 추가 crawling
 * 별점을 댓글에 대한 라벨로 사용 (1점 ~ 5점)
 * Text Augmentation   
-Back Translatrion - 기존 텍스트를 외국어로 번역한 뒤, 다시 한글로 번역하여 증식, googletrans 라이브러리의 Translator 모듈   
+Back Translatrion - 기존 텍스트를 외국어로 번역한 뒤, 다시 한글로 번역하여 증식, googletrans 라이브러리의 Translator 모듈 사용     
 KoEDA - 단어를 삽입/삭제/위치 변경/ 유의어로 대체 하여 증식하는 기법   
 Generation Method - 키워드의 앞,뒤 상관관계 및 유사도를 기반하여 글자 생성을 통한 증식기법   
 * Modeling - KoBERT을 사용한 댓글 감성분석을 통해 별점을 다시 매김
