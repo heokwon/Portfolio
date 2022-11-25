@@ -2,7 +2,7 @@
 ### NLP(Natural Language Processing)
 * [TextMining with ML](https://github.com/heokwon/Portfolio#textmining-with-ml)(2022.04)
 * [Distinguish Click-bait](https://github.com/heokwon/Portfolio#distinguish-click-bait)(2022.05)
-* MUSINSA - [Recommending Items](https://github.com/heokwon/Portfolio#musinsa---recommending-items), [Predicting Star-rate Using Review](https://github.com/heokwon/Portfolio#musinsa---predicting-star-rate-using-review)(2022.06~07)
+* [Predicting Star-rate Using Review](https://github.com/heokwon/Portfolio#musinsa---predicting-star-rate-using-review)(2022.06~07)
 * [Survey-Analysis](https://github.com/heokwon/Portfolio#survey-analysis)(2022.09)
 <br><br>
 ### CV(Computer Vision)
@@ -80,11 +80,6 @@
 * https://pandas.pydata.org/
 * https://aihub.or.kr/
 <br><br>
-#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
-***
-## **MUSINSA - Recommending Items**
-### [Repositories]()
-### 업데이트중
 #### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
 ***
 ## **MUSINSA - Predicting Star-rate Using Review**
